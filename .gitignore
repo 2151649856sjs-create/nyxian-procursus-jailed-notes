@@ -1,0 +1,48 @@
+# 这个仓库只放文档，不放二进制
+#
+# 重要：不要提交任何第三方文件。
+# 尤其是 Apple 的 SDK zip、Nyxian 的 IPA / ROM 包 —— 再分发是侵权。
+# 文档里只给链接 + SHA-256，让读者自己去下。
+
+# ── 证书 / 私钥相关（绝不能进仓库）────────────────────
+*.p12
+*.pfx
+*.key
+*.pem
+*.cer
+*.crt
+*.der
+*.mobileprovision
+*.provisionprofile
+
+# ── 可执行 / 安装包 / ROM 包 ─────────────────────────
+*.ipa
+*.nipa
+*.tipa
+*.deb
+*.dylib
+*.nxt2c
+*.nxrom
+iPhoneOS*.sdk.zip
+sdk*.zip
+include.zip
+lib.zip
+swift.zip
+bootstrap.tar.zst
+
+# ── 本项目的原始记录（含个人信息，不对外）──────────────
+排查记录*.txt
+现状*.txt
+配图清单*.txt
+证据/
+_private/
+_draft/
+
+# ── 系统 / 编辑器垃圾 ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
